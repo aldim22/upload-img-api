@@ -21,7 +21,7 @@
     <div class="card-body">
       <div class="row" v-if="savedImageUrls.length > 0">
         <div v-for="(imageUrl, index) in savedImageUrls" :key="index"  class="col-lg-4">
-          <div class="card">
+          <div class="card mt-3">
             <div class="card-body">
               <img style="width: 100%;height: 399px;" :src="imageUrl" alt="Saved Image" />
             </div>

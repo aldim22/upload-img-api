@@ -2,21 +2,24 @@
   <div class="container">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="IMG API"/>
-    <div>
+    <div style="margin-bottom: 100px;">
       <image-upload></image-upload>
-    </div>
+    </div><br /><br />
+    <footer-upload></footer-upload>
   </div>
-  
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import ImageUpload from './components/ImageUpload.vue';
+import FooterUpload from './components/FooterUpload.vue';
+
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    ImageUpload
+    ImageUpload,
+    FooterUpload
   }
 }
 </script>
